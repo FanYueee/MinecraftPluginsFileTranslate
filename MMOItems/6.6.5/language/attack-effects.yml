@@ -1,0 +1,19 @@
+# MMOItems language/attack-effects.yml 繁體中文翻譯 by FanYueee
+# 更新日期：2022/4/5
+# 獲取更多插件翻譯檔案 https://mcs.wiki
+# 註：本檔案翻譯為直接翻譯加上一些想法湊雜出的，可能跟實際作用不太相關。
+
+staff-spirit:
+  nether-spirit: '&7■ 地獄之魂'
+  void-spirit: '&7■ 虛空之魂'
+  mana-spirit: '&7■ 魔力之魂'
+  lightning-spirit: '&7■ 閃電之魂'
+  xray-spirit: '&7■ 穿透之魂'
+  thunder-spirit: '&7■ 雷電之魂'
+  sunfire-spirit: '&7■ 烈日之魂'
+lute-attack:
+  wave: '&7■ 波浪攻擊'
+  circular: '&7■ 循環攻擊'
+  slash: '&7■ 削減攻擊'
+  simple: '&7■ 純樸攻擊'
+  brute: '&7■ 蠻力攻擊'

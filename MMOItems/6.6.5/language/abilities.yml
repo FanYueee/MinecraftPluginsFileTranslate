@@ -1,0 +1,128 @@
+# MMOItems language/ability.yml 繁體中文翻譯 by FanYueee
+# 更新日期：2022/4/5
+# 獲取更多插件翻譯檔案 https://mcs.wiki
+# 註：本檔案翻譯為直接翻譯加上一些想法湊雜出的，可能跟實際作用不太相關。
+
+ability:
+  overload: 超負荷
+  freeze: 凍結
+  blizzard: 暴風雪
+  magical-shield: 法力護盾
+  bouncy-fireball: 彈射火球
+  burning-hands: 火焰護符
+  fire-meteor: 火焰流星
+  light-dash: 突襲
+  tactical-grenade: 戰術手榴彈
+  ignite: 點燃
+  sparkle: 火花
+  tnt-throw: 投擲炸彈
+  earthquake: 地震
+  stun: 暈眩
+  holy-missile: 聖光射擊
+  black-hole: 黑洞
+  cursed-beam: 受詛之光
+  throw-up: 投擲
+  circular-slash: Circular Slash
+  slow: 緩慢
+  thrust: 穿刺
+  heavy-charge: 馳突
+  item-throw: 物品投擲
+  shock: 震撼
+  minor-explosion: 小型爆炸
+  shadow-veil: 陰影面紗
+  frog-mode: 青蛙模式
+  regen-ally: 治癒友軍
+  lightning-beam: 閃電光束
+  confuse: 混亂
+  death-mark: 死亡標記
+  shulker-missile: 界伏導彈
+  heal: 治療
+  contamination: 汙染
+  corrosion: 腐蝕
+  leap: 飛躍
+  explosive-turkey: 爆炸雞
+  hoearthquake: Hoearthquake
+  burn: 燃燒
+  starfall: 星殞
+  wither: 凋零
+  shockwave: 衝擊波
+  vampirism: 吸血
+  snowman-turret: 雪人砲塔
+  smite: 不死剋星
+  corrupt: 腐敗
+  arcane-hail: 奧術冰雹
+  firebolt: 火弩箭
+  grand-heal: 聖光降臨
+  magical-path: 魔法路徑
+  life-ender: 生命終結者
+  swiftness: 迅捷
+  present-throw: 禮物放送
+  weaken-target: 虛弱目標
+  chicken-wraith: 雞導彈
+  freezing-curse: 冰凍詛咒
+  arcane-rift: 奧術裂隙
+  targeted-fireball: 火球法術
+  corrupted-fangs: 腐化的毒牙
+  ice-crystal: 冰晶
+  blind: 失明
+  firefly: 螢火
+  poison: 中毒
+  blink: 閃現
+  frozen-aura: 寒冰領域
+  sky-smash: 天崩地裂
+  bunny-mode: 兔子模式
+  magma-fissure: 岩漿裂縫
+  bloodbath: 血洗祭典
+  item-bomb: 物品導彈
+modifier:
+  damage: 傷害
+  mana: 法力
+  stamina: 體力
+  cooldown: 冷卻
+  radius: 半徑
+  duration: 持續時間
+  amplifier: 增益
+  inaccuracy: 精確度
+  force: 威力
+  power: 減傷率
+  ignite: 點燃
+  speed: 速度
+  knockback: 擊退
+  length: 長度
+  knock-up: 擊退等級
+  max-ignite: 最大點燃
+  limit: 限制
+  deception: 詭計
+  jump-force: 跳躍力
+  heal: 治療
+  effect-duration:
+  drain: 吸血量
+  extra-damage: 額外傷害
+  fangs: 獠牙
+  range: 半徑
+  amount: 數量
+  slow-duration: 減速等級
+  slow-amplifier: 減速持續時間
+cast-mode:
+  kill-entity: 殺死實體
+  attack: 攻擊
+  damaged: 傷害
+  damaged-by-entity: 被實體傷害
+  death: 死亡
+  shoot-bow: 弓射擊
+  arrow-tick: 箭矢 Tick
+  arrow-hit: 箭矢攻擊
+  arrow-land: 箭矢 Land
+  shoot-trident: 三叉戟射擊
+  trident-tick: 三叉戟 Tick
+  trident-hit: 三叉戟攻擊
+  trident-land: 三叉戟 Land
+  right-click: 右鍵
+  left-click: 左鍵
+  shift-right-click: Shift 右鍵
+  shift-left-click: Shift 左鍵
+  login: 登入
+  passive: 被動
+  sneak: 蹲下
+  cast: 投擲
+  api: API

@@ -1,0 +1,545 @@
+
+# 預設物品類型。 這些是無法刪除的。 They
+# may be used as 'parents' to create new item types
+# which will behave just like another item type. Parents
+# generate their own config file at /language/item_type.yml
+
+# Every item type has its template for unidentified items.
+# If you don't specify one like the default SWORD item type,
+# it will use the default (not translated) english one.
+
+# Used as reference when using /mmoitems commands
+SWORD:
+
+    # The display parameter is used to display the item in both
+    # the item brower and the recipe list when shifting a
+    # workbench. You can use durability for custom textures.
+    # In 1.14, durability is replaced by CustomModelData.
+    display: IRON_SWORD:0
+    
+    # 物品描述中顯示的名稱
+    name: '劍'
+    
+    # 未鑑定物品的模板
+    unident-item:
+        name: '&f#prefix#未鑑定的劍'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+DAGGER:
+    display: STONE_SWORD
+    name: '匕首'
+    unident-item:
+        name: '&f#prefix#未鑑定的匕首'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+SPEAR:
+    display: TRIDENT
+    name: '矛'
+    unident-item:
+        name: '&f#prefix#未鑑定的矛'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+HAMMER:
+    display: IRON_AXE
+    name: '錘子'
+    unident-item:
+        name: '&f#prefix#鑑定的錘子'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+GAUNTLET:
+    display: IRON_HORSE_ARMOR
+    name: '護手'
+    unident-item:
+        name: '&f#prefix#鑑定的護手'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+WHIP:
+    display: LEAD
+    name: '鞭子'
+    unident-item:
+        name: '&f#prefix#未鑑定的鞭子'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+STAFF:
+    display: DIAMOND_HOE
+    name: '手杖'
+    unident-item:
+        name: '&f#prefix#未鑑定的手杖'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+BOW:
+    display: BOW
+    name: '弓'
+    unident-item:
+        name: '&f#prefix#未鑑定的弓'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+CROSSBOW:
+    display: WOODEN_PICKAXE
+    name: '十字弩'
+    unident-item:
+        name: '&f#prefix#未鑑定的十字弩'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+MUSKET:
+    display: IRON_HORSE_ARMOR
+    name: '滑膛槍'
+    unident-item:
+        name: '&f#prefix#未鑑定的滑膛槍'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+LUTE:
+    display: NAME_TAG
+    name: '琵琶'
+    unident-item:
+        name: '&f#prefix#未鑑定的琵琶'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+CATALYST:
+    display: PRISMARINE_SHARD
+    name: '催化劑'
+    unident-item:
+        name: '&f#prefix#未鑑定的催化劑'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+OFF_CATALYST:
+    display: PRISMARINE_CRYSTALS
+    name: '副手催化劑'
+    unident-item:
+        name: '&f#prefix#未鑑定的副手催化劑'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+ORNAMENT:
+    display: GOLD_NUGGET
+    name: '飾品'
+    unident-item:
+        name: '&f#prefix#未鑑定的飾品'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+ACCESSORY:
+    display: DIAMOND
+    name: '配飾'
+    unident-item:
+        name: '&f#prefix#未鑑定的配飾'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+ARMOR:
+    display: IRON_CHESTPLATE
+    name: '裝備'
+    unident-item:
+        name: '&f#prefix#未鑑定的裝備'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+TOOL:
+    display: IRON_PICKAXE
+    name: '工具'
+    unident-item:
+        name: '&f#prefix#未鑑定的工具'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+CONSUMABLE:
+    display: APPLE
+    name: '消耗品'
+    unident-item:
+        name: '&f#prefix#未鑑定的消耗品'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+MISCELLANEOUS:
+    display: WATER_BUCKET
+    name: '雜項'
+    unident-item:
+        name: '&f#prefix#未鑑定的雜項'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+SKIN:
+    display: LEATHER
+    name: '皮膚'
+    unident-item:
+        name: '&f#prefix#未鑑定的皮膚'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+GEM_STONE:
+    display: EMERALD
+    name: '寶石'
+    unident-item:
+        name: '&f#prefix#未鑑定的寶石'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+BLOCK:
+    display: STONE:0
+    name: '方塊'
+    unident-item:
+        name: '&f#prefix#未鑑定的方塊'
+        lore:
+            - '&7這個物品尚未鑑定'
+            - '&7尋找方式去鑑定它'
+            - '{tier}'
+            - '{tier}&8物品資訊:'
+            - '{range}&8- &7等級範圍: &e#range#'
+            - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+
+# 預設子類型
+GREATSWORD:
+    display: DIAMOND_SWORD
+    name: '大劍'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#未鑑定的大劍'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+LONG_SWORD:
+    display: STONE_SWORD
+    name: '長劍'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#未鑑定的長劍'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+KATANA:
+    display: IRON_SWORD
+    name: '武士刀'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#未鑑定的武士刀'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+THRUSTING_SWORD:
+    display: GOLDEN_SWORD
+    name: '刺刀'
+    parent: 'DAGGER'
+    unident-item:
+        name: '&f#prefix#鑑定的刺刀'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+    
+AXE:
+    display: STONE_AXE
+    name: '斧頭'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#未鑑定的斧頭'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+    
+GREATAXE:
+    display: DIAMOND_AXE
+    name: '巨斧'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#未鑑定的巨斧'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+    
+HALBERD:
+    display: IRON_AXE
+    name: '戟'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#未鑑定的戟'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+    
+LANCE:
+    display: STICK
+    name: '長矛'
+    parent: 'SPEAR'
+    unident-item:
+        name: '&f#prefix#未鑑定的長矛'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+    
+GREATHAMMER:
+    display: DIAMOND_AXE
+    name: '巨錘'
+    parent: 'HAMMER'
+    unident-item:
+        name: '&f#prefix#未鑑定的巨錘'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+    
+GREATSTAFF:
+    display: DIAMOND_HOE
+    name: '大棒'
+    parent: 'HAMMER'
+    unident-item:
+        name: '&f#prefix#未鑑定大棒'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+    
+STAVE:
+    display: IRON_HOE
+    name: '大棍'
+    parent: 'HAMMER'
+    unident-item:
+        name: '&f#prefix#未鑑定大棍'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+    
+TOME:
+    display: BOOK
+    name: 'Tome'
+    parent: 'CATALYST'
+    unident-item:
+        name: '&f#prefix#Unidentified Tome'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+    
+TALISMAN:
+    display: TOTEM_OF_UNDYING
+    name: '護符'
+    parent: 'CATALYST'
+    unident-item:
+        name: '&f#prefix#未鑑定的護符'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+ 
+WAND:
+    display: STICK
+    name: '魔杖'
+    parent: 'STAFF'
+    unident-item:
+        name: '&f#prefix#未鑑定的魔杖'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+
+GREATBOW:
+    display: BOW
+    name: '長弓'
+    parent: 'BOW'
+    unident-item:
+        name: '&f#prefix#未鑑定的長弓'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+    
+SHIELD:
+    display: SHIELD
+    name: '盾牌'
+    parent: CATALYST
+    unident-item:
+        name: '&f#prefix#未鑑定的盾牌'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'
+    
+MATERIAL:
+    display: PAPER
+    name: '材料'
+    parent: 'MISCELLANEOUS'
+    unident-item:
+        name: '&f#prefix#未鑑定的材料'
+        lore:
+        - '&7這個物品尚未鑑定'
+        - '&7尋找方式去鑑定它'
+        - '{tier}'
+        - '{tier}&8物品資訊:'
+        - '{range}&8- &7等級範圍: &e#range#'
+        - '{tier}&8- &7物品稀有度: #prefix##tier#'

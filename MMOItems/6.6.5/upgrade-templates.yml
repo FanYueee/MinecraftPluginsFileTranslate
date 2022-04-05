@@ -1,0 +1,23 @@
+# MMOItems language/attack-effects.yml 繁體中文翻譯 by FanYueee
+# 更新日期：2022/4/5
+# 獲取更多插件翻譯檔案 https://mcs.wiki
+#
+# 模板 ID 僅供參考
+# 這是你在物品編輯 GUI 介面所需要輸入的文本
+# 以便特定物品設置物品強化
+weapon-default:
+
+    # 每升級一次，攻擊傷害提升 3%（相當於當前值）
+    attack-damage: 3%
+    
+    # 每升級一次，爆擊傷害提升 2%（與當前值無關）
+    critical-strike-chance: 2
+    
+    pve-damage: 1%
+
+armor-template-example:
+    armor: 3%
+    armor-toughness: 2%
+    block-rating: 5%
+    dodge-rating: 5%
+    parry-rating: 5%

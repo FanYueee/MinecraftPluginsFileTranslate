@@ -1,0 +1,42 @@
+# MMOItems language/crafting-stations.yml 繁體中文翻譯 by FanYueee
+# 更新日期：2022/4/5
+# 獲取更多插件翻譯檔案 https://mcs.wiki
+
+condition:
+  attribute:
+    positive: '&a✔ 需要 #points# #attribute#'
+    negative: '&c✖ 需要 #points# #attribute#'
+  food:
+    positive: '&a✔ 需要飽食度 #food#'
+    negative: '&c✖ 需要飽食度 #food#'
+  class:
+    positive: '&a✔ 需要職業: #class#'
+    negative: '&c✖ 需要職業: #class#'
+  stellium:
+    positive: '&a✔ 需要 #stellium# Stellium'
+    negative: '&c✖ 需要 #stellium# Stellium'
+  stamina:
+    positive: '&a✔ 需要體力 #stamina#'
+    negative: '&c✖ 需要體力 #stamina#'
+  mana:
+    positive: '&a✔ 需要 #mana# Mana'
+    negative: '&c✖ 需要 #mana# Mana'
+  level:
+    positive: '&a✔ 需要等級 #level#'
+    negative: '&c✖ 需要等級 #level#'
+  profession:
+    positive: '&a✔ 需要專業等級 #level# #profession#'
+    negative: '&c✖ 需要專業等級 #level# #profession#'
+  permission:
+    positive: '&a✔ #display#'
+    negative: '&c✖ #display#'
+  money:
+    positive: '&a✔ 需要 #money#$'
+    negative: '&c✖ 需要 #money#$'
+ingredient:
+  mmoitem:
+    positive: '&8✔ &7#amount# #level##item#'
+    negative: '&c✖ &7#amount# #level##item#'
+  vanilla:
+    positive: '&8✔ &7#amount# #item#'
+    negative: '&c✖ &7#amount# #item#'

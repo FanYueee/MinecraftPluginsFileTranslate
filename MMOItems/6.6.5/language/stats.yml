@@ -1,0 +1,144 @@
+# MMOItems language/stats.yml 繁體中文翻譯 by FanYueee
+# 更新日期：2022/4/5
+# 獲取更多插件翻譯檔案 https://mcs.wiki
+
+# Weapon Stats
+attack-damage: '&3 &7➸ 攻擊傷害: &f#'
+attack-speed: '&3 &7➸ 攻擊速度: &f#'
+critical-strike-chance: '&3 &7■ 爆擊機率: &f<plus>#%'
+critical-strike-power: '&3 &7■ 爆擊附加: &f<plus>#%'
+range: '&3 &7■ 範圍: &f#'
+mana-cost: '&3 &7■ 消耗 &9# 法力'
+stamina-cost: '&3 &7■ 消耗 &9# 體力'
+arrow-velocity: '&3 &7■ 箭矢傷害: &f#'
+blunt-power: '&3 &7■ 範圍傷害半徑: &f#'
+blunt-rating: '&3 &7■ 範圍傷害比例: &f#%'
+two-handed: '&3 &7■ 雙持'
+handworn: '&3 &7■ Handworn'
+knockback: '&3 &7■ 擊退: &f#'
+recoil: '&3 &7■ 後坐力: &f#%'
+note-weight: '&3 &7■ 重量: &f#'
+
+# 加成傷害
+pve-damage: '&3 &7■ PvE 傷害加成: &f<plus>#%'
+pvp-damage: '&3 &7■ PvP 傷害加成: &f<plus>#%'
+magic-damage: '&3 &7■ 法術傷害加成: &f<plus>#%'
+weapon-damage: '&3 &7■ 武器傷害加成: &f<plus>#%'
+undead-damage: '&3 &7■ 不死生物傷害加成: &f<plus>#%'
+skill-damage: '&3 &7■ 技能傷害加成: &f<plus>#%'
+physical-damage: '&3 &7■ 物理傷害加成: &f<plus>#%'
+projectile-damage: '&3 &7■ 投射物傷害加成: &f<plus>#%'
+faction-damage-undead: '&3 &7■ 亡靈系列傷害加成: &f<plus>#%'
+
+# 技能
+ability-format: '&a>&8| &7#c &8|&e|&8| &7&l#a'
+ability-modifier: ' &3>&8|&7 #m&8: &f#v'
+ability-splitter: '&8'
+
+# Armor Stats
+block-power: '&3 &7■ 格擋: &f<plus>#%'
+block-rating: '&3 &7■ 格擋機率: &f<plus>#%'
+block-cooldown-reduction: '&3 &7■ 格擋冷卻時間: &f<plus>#%'
+dodge-rating: '&3 &7■ 迴避機率: &f<plus>#%'
+dodge-cooldown-reduction: '&3 &7■ 迴避冷卻時間: &f<plus>#%'
+parry-rating: '&3 &7■ 招架機率: &f<plus>#%'
+parry-cooldown-reduction: '&3 &7■ 招架冷卻時間: &f<plus>#%'
+armor: '&3 &7✠ 護甲: &f<plus>#'
+armor-toughness: '&3 &7✠ 護甲: &f<plus>#'
+knockback-resistance: '&3 &7✠ 擊退保護: &f<plus>#%'
+max-health: '&3 &7❤ 生命值:&c <plus>#'
+movement-speed: '&3 &7■ 移動速度: &f<plus>#'
+
+# 傷害減免
+defense: '&3 &7■ 防禦: &f<plus>#'
+damage-reduction: '&3 &7■ 傷害減免: &f<plus>#%'
+fall-damage-reduction: '&3 &7■ 摔弱傷害減免: &f<plus>#%'
+fire-damage-reduction: '&3 &7■ 火焰傷害減免: &f<plus>#%'
+magic-damage-reduction: '&3 &7■ 魔法傷害減免: &f<plus>#%'
+projectile-damage-reduction: '&3 &7■ 投射物傷害減免: &f<plus>#%'
+physical-damage-reduction: '&3 &7■ 物理傷害減免: &f<plus>#%'
+pve-damage-reduction: '&3 &7■ PvE 傷害減免: &f<plus>#%'
+pvp-damage-reduction: '&3 &7■ PvP 傷害減免: &f<plus>#%'
+
+# RPG stats
+health-regeneration: '&3 &7■ 生命回復: &f<plus>#'
+max-mana: '&3 &7■ 最高法力: &f<plus>#'
+mana-regeneration: '&3 &7■ 法力恢復: &f<plus>#'
+max-stamina: '&3 &7■ 最高體力: &f<plus>#'
+stamina-regeneration: '&3 &7■  體力恢復: &f<plus>#'
+cooldown-reduction: '&3 &7■ 技能冷卻恢復: &f<plus>#%'
+additional-experience: '&3 &7■ 額外經驗: &f<plus>#%'
+
+# 額外選項
+perm-effect: '&3 &7■ 效果 &f#'
+command: '&3 &7■ 指令: &f#c &3 &7(&f#d&3 &7s)'
+item-cooldown: '&3 &7■ &f#&3 &7秒 冷卻'
+arrow-potion-effects: '&3 &7■ 箭矢效果: &f#'
+
+# Consumables
+restore-health: '&3 &7■ 恢復 &f# &7血量'
+restore-food: '&3 &7■ 恢復 &f# &7飢餓'
+restore-saturation: '&3 &7■ 恢復 &f# &7飽食'
+restore-mana: '&3 &7■ 恢復 &f# &7法力'
+restore-stamina: '&3 &7■ 恢復 &f# &7體力'
+effect: '&3 &7■ 獲得 &f#e &7持續 &f#d &7秒'
+repair: '&3 &7■ 修復: &f#'
+can-identify: '&3 &7■ 可鑑定物品。'
+can-deconstruct: '&3 &7■ 可分解物品。'
+can-deskin: '&3 &7■ 可移除已安裝的皮膚'
+success-rate: '&3 &7■ 成功機率: &a&l#%'
+max-consume: '&3 &7■ 最多消耗: &f# &7使用'
+
+# 寶石
+empty-gem-socket: '&a◆ 空寶石槽位 #'
+filled-gem-socket: '&a◆ #'
+when-applied: '&a鑲嵌時間:'
+gem-stone-lore: '&8&l[&2&l*&8&l] &a拖移物品來鑲嵌!'
+
+# 靈魂綁定
+soulbinding-chance: '&3 &7■ &a#% &7機率綁定你的物品。'
+soulbound-break-chance: '&3 &7■ &a#% &7機率破壞綁定你的物品。'
+soulbound-level: '&3 &7■ 綁定等級: &e#'
+
+# 工具
+autosmelt: '&3 &7■ &f自動熔煉'
+bouncing-crack: '&3 &7■ &f範圍破壞'
+pickaxe-power: '&3 &7■ &f鎬: &a#'
+durability: '&7耐久度: #c / #m'
+
+# 一般
+item-type: '&c類型: #'
+tier: '&3 &7稀有度: #'
+required-class: '&3職業限制: #'
+required-level: '&e等級限制: #'
+
+# Attributes
+required-dexterity: '&e需要 &c# &e敏捷'
+required-strength: '&e需要 &c# &e力量'
+required-intelligence: '&e需要 &c# &e智慧'
+
+# 專業
+profession-alchemy: '&e釀造等級: &c#'
+profession-enchanting: '&e附魔等級: &c#'
+profession-farming: '&e農業等級: &c#'
+profession-fishing: '&e釣魚等級: &c#'
+profession-mining: '&e挖礦等級: &c#'
+profession-smelting: '&e冶煉等級: &c#'
+profession-smithing: '&e鐵匠等級: &c#'
+profession-woodcutting: '&e伐木等級: &c#'
+
+# 屬性傷害
+fire-damage: '&c ❖ #% 火屬性傷害'
+ice-damage: '&b ❖ #% 冰屬性傷害'
+earth-damage: '&2 ❖ #% 地屬性傷害'
+wind-damage: '&3 &7❖ #% 風屬性傷害'
+thunder-damage: '&e ❖ #% 雷屬性傷害'
+water-damage: '&3 ❖ #% 水屬性傷害'
+
+# 屬性防禦
+fire-defense: '&c ❖ #% 火屬性防禦'
+ice-defense: '&b ❖ #% 冰屬性防禦e'
+earth-defense: '&2 ❖ #% 地屬性防禦'
+wind-defense: '&3 &7❖ #% 風屬性防禦'
+thunder-defense: '&e ❖ #% 雷屬性防禦'
+water-defense: '&3 ❖ #% 水屬性防禦'

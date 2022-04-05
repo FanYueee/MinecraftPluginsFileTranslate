@@ -1,0 +1,56 @@
+# MMOItems language/messages.yml 繁體中文翻譯 by FanYueee
+# 更新日期：2022/4/5
+# 獲取更多插件翻譯檔案 https://mcs.wiki
+
+received-item: 你獲得 &6#item#&e#amount#.
+hands-too-charged: 你不能做任何事， your hands are too charged.
+spell-on-cooldown: '#progress# &e你必須等待 #left# 秒 #s# 才能用這個法術。'
+item-on-cooldown: '此物品還在冷卻中! 請等待 #left#秒。'
+not-enough-perms-command: 你沒有足夠的權限。
+not-enough-levels: 你的等級不足，無法使用此物品！
+soulbound-restriction: 此物品已綁定到其他玩家，你不能使用它！
+not-enough-perms: 你沒有足夠的權限來使用它。
+wrong-class: 不符合職業限制！
+not-enough-mana: 你的法力不夠！
+not-enough-stamina: 你的體力不夠！
+not-enough-attribute: '你沒有足夠的 #attribute#！'
+not-enough-profession: '#職業#你的等級不夠！'
+unidentified-item: 不能使用未鑑定的物品！
+zero-durability: 這件物品壞了，你需要修理它。
+cannot-identify-stacked-items: 你一次只能鑑定一件物品。
+successfully-identified: 你已成功鑑定 &6#item#&e。
+successfully-deconstructed: 你成功拆解 &6#item#&e。
+gem-stone-applied: ✔ 成功將 &6#gem#&e 鑲嵌到 &6#item#&e。
+gem-stone-broke: ❌ 失敗將 &6#gem#&c 鑲嵌到 &6#item#&c。
+repaired-item: ✔ 你已成功修復 &6#item#&e &6#amount#。
+skin-applied: ✔ 你已成功將皮膚裝到你的 &6#item#&e 上！
+skin-removed: ✔ 你已成功從 &6#item#&e 中移除皮膚！
+skin-broke: 嘗試將其裝在你的 &6#item#&c 上時，你的皮膚破裂了。
+skin-rejected: 你的 &6#item#&c 上已經裝了一個皮膚！
+skin-incompatible: 此皮膚與你的 &6#item#&c 不兼容！
+random-unsocket-gem-too-old: 寶石與你的物品緊密結合，無法移除。
+random-unsocket-success: '&a你從你的 &6#item#&a 中移除了 &3#gem# &a！'
+cant-bind-item: '該物品綁定至 #player# 綁定等級 #level# 若需重新綁定請破壞原綁定'
+no-soulbound: 此物品不受任何人的綁定。
+cant-bind-stacked: 你不能綁定堆疊的物品。
+unsuccessful-soulbound: ❌ 你的綁定失敗了。
+unsuccessful-soulbound-break: 你無法破壞綁定。
+low-soulbound-level: '綁定等級 #level# 若需重新綁定，綁定等級需高於該綁定等級'
+successfully-bind-item: ✔ 你成功為你 &6#item#&e 裝了 Lvl &6#level# &e綁定。
+successfully-break-bind: ✔ 你成功移除了 等級 &6#level# &e的綁定！
+soulbound-item-lore: '&f绑定至 #player# &8/ &n绑定等级 &7&l#level#'
+cant-upgraded-stack: 你無法升級堆疊的物品。
+max-upgrades-hit: 此物品無法再升級。
+upgrade-fail: ❌ 你的升級失敗並且你損失了消耗品。
+upgrade-fail-station: ❌ 你的升級失敗，你損失了材料。
+wrong-upgrade-reference: 你無法使用此消耗品升級此物品。
+upgrade-success: ✔ 你已成功升級 &6#item#&e！
+not-have-item-upgrade: 你沒有要升級的物品！
+upgrade-requirement-safe-check: 你將無法滿足升級物品的要求。
+not-enough-materials: 你沒有足夠的材料來製作此物品。
+conditions-not-met: 你無法製作此物品。
+crafting-canceled: 你取消了一個製作。
+crafting-queue-full: 製作隊列目前已滿。
+station-big-stack: '製作數量: #size#'
+recipe-preview: 製作預覽
+unable-to-repair: 此物品無法通過此消耗品修復！
