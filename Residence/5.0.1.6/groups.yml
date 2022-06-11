@@ -1,0 +1,171 @@
+# Residence 5.0.1.6 groups.yml 繁體中文翻譯 by FanYueee
+# 更新日期：2022/6/11
+# 獲取更多插件翻譯檔案 https://github.com/FanYueee/MinecraftPluginsFileTranslate/
+
+# 這些權限組對應於您的 <worldname> .yml'中定義的權限組。
+Groups:
+    Default: #群組名稱，請勿刪除這個群組
+       # 玩家可以定義的居住區信息。
+       # 取消註釋以已下註釋將該配置鏡像到其他組。
+       #Mirror:
+         #- 'group1'
+         #- 'group2'
+       Residence:
+           # 確定該組是否可以創建領地。可以使用權限節點"residence.create"覆蓋此選項。
+           CanCreate: true
+           # 玩家可以擁有的最大領地數量。
+           MaxResidences: 5
+           # 領地可以擁有的最大區塊數。
+           MaxAreasPerResidence: 100
+           # 領地最大格數（X座標）。
+           MaxEastWest: 200
+           # （可選）領地最小格數（X座標）。
+           MinEastWest: 5
+           # 領地的最大格數（Z座標）。
+           MaxNorthSouth: 200
+           # （可選）領地最小格數（Z座標）。
+           MinNorthSouth: 5
+           # 領地的最大格數（Y座標）。
+           MaxUpDown: 256
+           # （可選）領地最小格數（Y座標）。
+           MinUpDown: 2
+           # 該權限組允許保護的最低高度
+           MinHeight: 0
+           # 該權限組允許保護的最高高度
+           MaxHeight: 255
+            # 當前領地可以擁有的最大子領地數量。
+           MaxSubzonesInArea: 10
+            # 子領地的最大深度
+            # 子領地選擇必須在主領地最大深度2之內
+            # 設置 0 取消子領地。
+           SubzoneDepth: 3
+           # （可選）子領地最大格數（X座標）。
+           SubzoneMaxEastWest: 200
+           # （可選）子領地最小格數（X座標）。
+           SubzoneMinEastWest: 3
+           # （可選）子領地最大格數（Z座標）。
+           SubzoneMaxNorthSouth: 200
+           # （可選）子領地最小格數（Z座標）。
+           SubzoneMinNorthSouth: 3
+           # （可選）子領地最大格數（Y座標）。
+           SubzoneMaxUpDown: 256
+           # （可選）子領地最小格數（Y座標）。
+           SubzoneMinUpDown: 2
+           # 是否允許傳送到領地。
+           CanTeleport: true
+           # 允許或禁止使用 /res unstuck，如果因某種原因陷入方塊，則可以此指令讓自己離開領地
+           Unstuck: true
+           # 允許或禁止使用 /res kick，將玩家踢出領地。
+           Kick: true
+           # 允許或禁止使用/res select命令，如果禁用，則只能使用使用工具圈地。
+           SelectCommandAccess: true
+            #允許或禁止該權限組訪問其擁有的領地的黑名單/忽略列表。
+           ItemListAccess: true
+       # 有關在領地上進入和離開消息的選項。
+       Messaging:
+           # 玩家是否可以更改領地進入和離開消息。
+           CanChange: true
+           # 默認消息適用於該組中的玩家創建的新領地。
+           # 如果您只想包括當前領地名稱而不在名稱中包括子領地，請使用％zone
+           # 將消息保留為空白將禁用它。
+           DefaultEnter: "%player 進入 %residence 領地,所有者 %owner,當您破壞或拿取他人物品時請確保您遵守伺服器規則。"
+           # 默認消息適用於該組中的玩家創建的新領地。
+           # 如果您只想包括當前領地名稱而不在名稱中包括子領地，請使用％zone
+           # 將消息保留為空白將禁用它。
+           DefaultLeave: "離開了 %residence."
+       # 與租借系統有關的選項。
+       Lease:
+          # 允許租領地的最大天數。
+          MaxDays: 30
+          # “ /res lease renew”命令之後要添加到租約的天數。
+          RenewIncrement: 15
+       # 與租金制度有關的選擇
+       Rent:
+           # 該權限組成員一次可以租用多少個住宅
+           MaxRents: 3
+           # 該權限組的玩家可以一次設置多少個領地出租
+           MaxRentables: 3
+           # 玩家可以一次租領地的最長天數
+           MaxRentDays: 31
+       # 與領地經濟相關的選項。
+       Economy:
+          # 該權限組中的玩家是否可以購買其他的領地。
+          CanBuy: true
+          # 該權限組中的玩家是否可以出售他的領地。
+          CanSell: false
+          # 購買領地時是否忽略住宅大小/數量限制。
+          IgnoreLimits: false
+          # 建造新領地或在其中增加一個區域的價格（按塊(格)計費）。
+          BuyCost: 0
+          # 搬遷時，退還玩家每格的價格。
+          # 注意需要在配置文件中啟用ResMoneyBack才能使其正常工作
+          SellCost: 0
+          # 續簽領地租賃（如果啟用了租賃系統）的每格價格。
+          RenewCost: 0.2
+       # 標誌按以下順序檢查：
+       # 1: Player
+       # 2: Group
+       # 3: Owner
+       # 4: 如果所有其他未定義，則恢復為默認值（通常為true）。
+       # 標記權限默認為false。
+       # 這些標誌設置將覆蓋全局變量。
+       Flags:
+          # 明確允許或拒絕該權限組更改某些標誌。
+          Permission:
+               #build: true
+          # 指定在創建該權限組玩家的領地時應用的標誌。
+          Default:
+              #build: true
+          # 指定在創建領地時應用於創建者的標誌。
+          CreatorDefault:
+              #build: true
+          # 指定創建時應用於此領地的其他權限組的標誌。
+          GroupDefault:
+               #default: #group name
+                   #build: false
+          # 這些標誌在領地以外時專門應用於該權限組
+          # 這些標誌將覆蓋全局部分下頂部的標誌。
+          World:
+                Global: # 這些標誌將適用於所有世界
+                     #build: false
+                WorldNameHere: # 或者您可以按每個世界應用它們
+                     #build: false
+    Player: # 權限群組名稱，玩家應具有Residence.group.nextgroup權限節點才能訪問此權限組
+       Residence:
+           CanCreate: true
+           MaxResidences: 5
+           MaxAreasPerResidence: 10
+           MaxEastWest: 200
+           MaxNorthSouth: 200
+           MaxUpDown: 256
+           MinHeight: 2
+           MaxHeight: 256
+           SubzoneDepth: 3
+           CanTeleport: true
+           Unstuck: true
+           Kick: true
+           SelectCommandAccess: true
+           ItemListAccess: true
+       Messaging:
+           CanChange: true
+           DefaultEnter: "%player 進入了 %residence, 領地所有者 %owner."
+           DefaultLeave: "你離開了 %residence."
+       Lease:
+          MaxDays: 16
+          RenewIncrement: 14
+       Rent:
+           MaxRents: 3
+           MaxRentables: 3
+           MaxRentDays: 31
+       Economy:
+          CanBuy: true
+          CanSell: false
+          IgnoreLimits: false
+          BuyCost: 0
+          SellCost: 0
+          RenewCost: 0.1
+
+# 您可以在下面手動指定玩家所在的權限組，這將覆蓋他們的權限組。
+GroupAssignments:
+     bekvon: default
+     player: default
